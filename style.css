@@ -71,7 +71,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(Project_images/uncheckedIcon.png);
+    background-image: url(todolist_images/not_tick.png);
     background-size: cover;
     background-position: center;
     top: 9px;
@@ -84,7 +84,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(Project_images/checkedIcon.png);
+    background-image: url(todolist_images/tick.png);
 }
 
 ul li span{
